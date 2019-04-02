@@ -1,0 +1,17 @@
+root {
+    display: block;
+}
+
+.root {
+    -fx-background-image: url("../Images/timg4.jpeg");
+    -fx-background-size: 500;
+}
+.TextField{
+    -fx-font-size: 36px;
+}
+#hh{
+    -fx-font-size: 20px;
+}
+.label{
+    -fx-font-size: 20px;
+}

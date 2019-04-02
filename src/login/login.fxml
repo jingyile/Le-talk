@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="319.0" prefWidth="483.0" styleClass="root" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller">
+      <Button layoutX="179.0" layoutY="233.0" mnemonicParsing="false" onAction="#ButtonAction1" prefHeight="43.0" prefWidth="202.0" text="登录" />
+      <Button alignment="TOP_LEFT" layoutX="386.0" layoutY="140.0" mnemonicParsing="false" opacity="0.62" text="找回密码" textOverrun="CLIP" />
+    <TextField id="hh" fx:id="username0" layoutX="179.0" layoutY="62.0" prefHeight="43.0" prefWidth="188.0" text="jingyile" />
+      <PasswordField fx:id="password0" layoutX="179.0" layoutY="131.0" prefHeight="43.0" prefWidth="188.0" text="336336336" />
+      <CheckBox layoutX="179.0" layoutY="194.0" mnemonicParsing="false" text="记住密码" />
+      <CheckBox layoutX="277.0" layoutY="194.0" mnemonicParsing="false" text="自动登录" />
+      <Label layoutX="95.0" layoutY="117.0" prefHeight="43.0" prefWidth="66.0" text="用户名" />
+      <Label layoutX="95.0" layoutY="171.0" prefHeight="43.0" prefWidth="66.0" text="密码" />
+      <Text id="welcome" layoutX="128.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!" wrappingWidth="145.0" />
+   <Text fx:id="actiontarget" layoutX="245.0" layoutY="33.0" wrappingWidth="165.0" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+   <Button layoutX="386.0" layoutY="71.0" mnemonicParsing="false" onAction="#changeWindow" opacity="0.69" text="注册账号" />
+   <ImageView fitHeight="217.0" fitWidth="132.0" layoutX="29.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/Image1.jpg" />
+      </image>
+   </ImageView>
+   <stylesheets>
+      <URL value="@login.css" />
+   </stylesheets>
+</AnchorPane>
